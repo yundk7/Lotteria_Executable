@@ -1,5 +1,7 @@
 Extracts data from excel files downladed from headquarter's ERP database,
 
+![py.png](py.png)
+
 manipulates data to form processed data for daily report
 
 README for my staff was written in Korean,
