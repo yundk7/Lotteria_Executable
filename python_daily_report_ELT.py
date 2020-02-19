@@ -46,7 +46,7 @@ if __name__ == "__main__" :
     selfcard = selfcard.iloc[0][0]
 
     total = sales_df["금액"].T["판매"]
-    cash = sales_df["금액"].T["현금"] - selfcard
+    cash = sales_df["금액"].T["현금"]# - selfcard
     cash
 
     lottept = sales_df["금액"].T[["롯데포인트","제휴포인트"]].sum()
