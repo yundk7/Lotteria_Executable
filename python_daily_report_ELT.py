@@ -108,7 +108,7 @@ if __name__ == "__main__" :
         "현금매출":[cash],
         "카드매출":[card],
         "롯데포인트":[lottept],
-#         "제품교환권+모바일": [coupon],
+        "제품교환권+모바일": [coupon],
         "심야매출":[night],
         "현금영수증": [cash_receipt],
         "자체배달": [self_del],
