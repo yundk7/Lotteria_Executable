@@ -106,8 +106,8 @@ if __name__ == "__main__" :
     df1 = pd.DataFrame({
         "총매출":[total],
         "현금매출":[cash],
-#         "카드매출":[card],
-        "롯데포인트":[lottept],
+        "카드매출":[card],
+#         "롯데포인트":[lottept],
         "제품교환권+모바일": [coupon],
         "심야매출":[night],
         "현금영수증": [cash_receipt],
