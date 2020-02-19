@@ -39,8 +39,8 @@ if __name__ == "__main__" :
     sales_df["객수"] = sales[sales_df.index].T
     sales_df
 
-    selfcard = open("자체배달카드.txt",'r')
-#     selfcard = selfcard.readlines()
+#     selfcard = open("자체배달카드.txt",'r')
+    selfcard = selfcard.readlines()
 #     selfcard = int(selfcard[0])
     selfcard = pd.read_excel("일자별 결제수단 판매형태 매출 조회.xls",nrows=1)
     selfcard = selfcard.iloc[0][0]
