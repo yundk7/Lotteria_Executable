@@ -6,8 +6,8 @@ import glob
 if __name__ == "__main__" :
 
 #     today = pd.to_datetime("today")
-#     today = (datetime.datetime.today()-datetime.timedelta(days=1)).strftime("%Y-%m-%d")
-#     ## datetime.timedelta(days=1)##
+    today = (datetime.datetime.today()-datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+    ## datetime.timedelta(days=1)##
 #     today
     df = pd.read_excel("시간대별 매출 조회.xls",nrows=2)
     today = df.iloc[-1][0][9:19]
