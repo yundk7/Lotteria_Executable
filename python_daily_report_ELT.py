@@ -125,4 +125,4 @@ if __name__ == "__main__" :
     df1 = df1.T.reset_index()
     df1 = pd.concat([df1,bigo],axis=1,ignore_index=True).apply(lambda x: pd.Series(x.dropna().values))
 #     df1 = pd.concat
-    df1.to_csv("영업보고(당일).csv",index=False)
+    df1.to_csv("영업보고(당일).csv",index=False,encoding="euc_kr")
