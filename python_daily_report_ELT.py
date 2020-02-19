@@ -116,7 +116,7 @@ if __name__ == "__main__" :
         "자체배달 개수": [self_del_n],
         "콜센터 개수":[homesn-self_del_n],
         "객수": [orders],
-#         "객단가":[int(total / orders)],
+        "객단가":[int(total / orders)],
         "배달대행 건수": [del_complete],
         "배달주문 건수": [homesn],
         "배달 차이 건수": [homesn-del_complete]
