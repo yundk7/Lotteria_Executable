@@ -1,3 +1,5 @@
+# Python Executables for Lotteria
+
 Extracts data from excel files downladed from headquarter's ERP database,
 
 ![py.png](py.png)
